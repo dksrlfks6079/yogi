@@ -1,0 +1,133 @@
+.container {
+}
+.login {
+    width: 340px;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+/* sns */
+
+.sns_box li {
+    display: flex;
+    margin-bottom: 10px;
+    width: 335px;
+    height: 56px;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    color: #fff;
+    line-height: 56px;
+}
+
+.sns_box .kakao {
+    margin-top: 23px;
+    background-color: #fce51e;
+    color: #3b1d14;
+}
+
+.sns_box .facebook {
+    background-color: #1877f2;
+}
+
+.sns_box .naver {
+    background-color: #28d111;
+}
+
+.line p {
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+.line {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 14px;
+    max-width: 8px 0;
+}
+
+.line::before {
+    content: "";
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+}
+.line::after {
+    content: "";
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+}
+
+/* input */
+.input {
+    position: relative;
+}
+
+input {
+    width: 335px;
+    height: 50px;
+    padding-left: 40px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.input .first i {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 20px;
+    color: #ddd;
+}
+
+.input .second {
+    margin-top: 10px;
+}
+
+.input .second i {
+    position: absolute;
+    top: 72px;
+    left: 16px;
+    font-size: 20px;
+    color: #ddd;
+}
+
+/* login_btn */
+
+.login_btn {
+    width: 335px;
+    height: 56px;
+    background-color: #e91e45;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 56px;
+    margin: 20px 0;
+    border: transparent;
+}
+
+.login_btn:hover {
+    background-color: #fff;
+    border: 1px solid #e91e45;
+    color: #e91e45;
+    transition: all 0.3s;
+}
+
+.bottom_text {
+    color: var(--five);
+    cursor: pointer;
+}
